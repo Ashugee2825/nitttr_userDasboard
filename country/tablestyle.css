@@ -1,0 +1,77 @@
+/* Apply general styles to the table */
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Style for table header */
+th {
+    background-color: #3498db;
+    color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Style for table cells */
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* Style for alternating rows */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style for buttons */
+button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Center the content on the page */
+body {
+    text-align: center;
+}
+
+/* Style for the banner (now a centered box) */
+#banner {
+    margin-top: 10px;
+    width: 40%;
+    padding: 20px ;
+    border: 2px solid #3498db;
+    
+    border-radius: 10px;
+    
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.image-container {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+/* Responsive adjustments for smaller screens */
+@media only screen and (max-width: 600px) {
+    table {
+        width: 100%;
+    }
+
+    #banner {
+        width: 90%;
+        HEIGHT: auto;
+    }
+}

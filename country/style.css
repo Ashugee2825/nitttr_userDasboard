@@ -1,0 +1,52 @@
+/* Apply general styles to the table */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Style for table header */
+th {
+    background-color: #3498db;
+    color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Style for table cells */
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* Style for alternating rows */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style for buttons */
+button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Center the content on the page */
+body {
+    text-align: center;
+}
+
+/* Style for the banner */
+#banner {
+    margin-top: 20px;
+}
+
+/* Responsive adjustments for smaller screens */
+@media only screen and (max-width: 600px) {
+    table {
+        width: 100%;
+    }
+}
